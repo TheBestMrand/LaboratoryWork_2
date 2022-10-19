@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang = "ru">
+  <head>
+        <link rel = "stylesheet" href = "../styles.css">
+        <script src="../scripts/image-switch-en.js"></script>
+        <meta charset="utf-8">
+        <title>V. N. Karazin Kharkiv National University</title>
+  </head>
+  <body>
+    <a href="../index.html">
+      <img class="university-logo" src="../images/etalon-big2019.png">
+      <span>KARAZIN UNIVERSITY</span>
+    </a>
+
+    <div class="translations">
+      <a href="../index.html">
+        <img id ="UkraineFlag" src="https://countryflagsapi.com/svg/ua" alt="UA">
+      </a>
+      <a href="indexen.html">
+        <img id ="BritainFlag" src="https://countryflagsapi.com/svg/united kingdom" alt="UK">
+      </a>
+    </div>
+    <section class = "image-section">
+      <img id="main-image" src = "../images/switch/first.jpg" alt = "Placeholder">
+      <div class = "image-switcher-layout">
+        <input type="radio" class="radio-switch" name="image-shown" id="first-image" checked onchange="change_image()">
+        <input type="radio" class="radio-switch" name="image-shown" id="second-image" onchange="change_image()">
+        <input type="radio" class="radio-switch" name="image-shown" id="third-image" onchange="change_image()">
+      </div>
+    </section>
+
+    <div class ="nav">
+      <div class="nav-menu">
+        <input class="checkbox" type="checkbox">
+        <div class="hamburger-menu">
+          <span id="line"></span>
+          <span id="line"></span>
+          <span id="line"></span>
+        </div>
+        <div class="nav-menu-items">
+            <li><a href="../index.html"> Main </a></li>
+            <li><button> Applicant </button></li>
+            <li><a href="../applicant/contests.html" > Entry </a></li>
+            <li><a href="../applicant/entry.html"> Entry Commision </a></li>
+            <li><a href="../applicant/entry-commision.html"> Contests </a></li>
+            <li><button class="nav-dropdown"> Student</button></li>
+            <li><a href="../student/faculties.html"> Faculty </a></li>
+            <li><a href="../student/schedule.html"> Schedule </a></li>
+            <li><button class="nav-dropdown"> About us </button></li>
+            <li><a href="../aboutus/history.html"> History </a></li>
+        </div>
+      </div>
+    </div>
+
+    <div class = "layout">
+      <a href="../index.html" class="link"> Main </a>
+      <div class="dropdown">
+        <button class ="dropdown-link"> Applicant </button>
+        <div class="dropdown-content">
+          <a href="../applicant/WhyUs.html" class="dropdown-content-link"> WhyUs </a>
+          <a href="../applicant/entry.html" class="dropdown-content-link"> Entry Commision  </a>
+        </div>
+      </div>
+      <div class="dropdown">
+          <button class="dropdown-link"> Student</button>
+          <div class="dropdown-content">
+            <a href="../student/faculties.html" class="dropdown-content-link"> Faculty </a>
+            <a href="../student/schedule.html" class="dropdown-content-link"> Schedule ERASMUS </a>
+          </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropdown-link"> About us </button>
+        <div class="dropdown-content">
+          <a href="../aboutus/historyen.html" class="dropdown-content-link"> History </a>
+        </div>
+      </div>
+    </div>
+    <div class = "submenu-layout">
+      <a href="#announces"> Announces </a>
+      <a href="#news"> News </a>
+    </div>
+    <br>
+    <h2 id="announces">Анонси</h2>
+    <br>
+    <div class="announce-layout">
+      <div class="announce">
+        <a href="../content/announce/panen.html">
+          <img src="../images/announce/maxresdefault.jpg">
+          <span>The Kharkiv international readings of the "Three worlds of Grigory Skovoroda: the work of Skovoroda in the context of world <br>philosophy for the 30th anniversary of his birth"</span>
+        </a>
+        <a href="../content/announce/seminar.html">
+          <img src="../images/announce/seminar.jpg">
+          <span>Open physical seminars of the Department of Nuclear and High Energy Physics named after O. I. Ahiezer: we invite you to join</span>
+        </a>
+        <a href="../content/announce/online-meeting.html">
+          <img src="../images/announce/cover_small.jpg">
+          <span>Online meeting "How to enroll in Karazin University"</span>
+        </a>
+        <a href="../content/announce/online-meeting-two.html">
+          <img src="../images/announce/c56c79b35c6a92d5993ce.jpg">
+          <span>Онлайн-зустріч «Особливості вступної кампанії. Як вступити на бюджет?»</span>
+        </a>
+        <a href="../content/announce/round-table.html">
+          <img src="../images/announce/lit.jpg">
+          <span>Online meeting "Features of the introductory campaign. How to enter the budget?"</span>
+        </a>
+        <a href="../content/announce/super-lesson.html">
+          <img src="../images/announce/prome2022.jpg">
+          <span>Solemn online graduation of university students</span>
+        </a>
+        <a href="../content/announce/ERASMUS.html">
+          <img src="../images/announce/7555031.jpg">
+          <span>The start of the implementation of the Jean Monet module project "European Integration of Ukraine in Industry 4.0"</span>
+        </a>
+      </div>
+    </div>
+    <br>
+    <h2 id="news">Новини</h2>
+    <br>
+    <div class="news-layout">
+      <figure class="news">
+          <a href="../content/news/miroslav.html">
+            <img src="../images/news/newsone.jpg" alt="Тут повина бути новина">
+            <span>Collection of funds for the restoration of the monument to Myroslav Mysla, a graduate of the university</span>
+          </a>
+          <figcaption>October 4, 2022</figcaption>
+      </figure>
+      <figure class="news">
+        <a href="../content/news/ceremony.html">
+          <img src="../images/news/newstwo.jpg" alt="Тут повина бути новина">
+          <span>Solemn ceremony of initiation of first-year students into students</span>
+        </a>
+          <figcaption>October 3, 2022</figcaption>
+      </figure>
+      <figure class="news">
+        <a href="../content/news/IFT.html">
+          <img src="../images/news/newsthird.jpg" alt="Тут повина бути новина">
+          <span>Graduate Vladyslav Orlov is the winner of the ITF WTT M25 tennis tournament</span>
+        </a>
+        <figcaption>October 3, 2022</figcaption>
+      </figure>
+    </div>
+
+    <hr class = "divider-line">
+    <iframe class = "google-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2564.295422507066!2d36.22712076571536!3d50.00581782941648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a0dff3c08f8b%3A0xcff23a70c20c6f80!2z0KXQsNGA0YzQutC-0LLRgdC60LjQuSDQndCw0YbQuNC-0L3QsNC70YzQvdGL0Lkg0KPQvdC40LLQtdGA0YHQuNGC0LXRgg!5e0!3m2!1sru!2sua!4v1664937157478!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <section class = "footer-layout">
+      <h2>V. N. Karazin Kharkiv National University</h2>
+      <div class ="unordered-list-socials-layout">
+          <ul class = "unordered-list-socials">
+            <li>
+              <a class="social-media-links" href="https://www.facebook.com/Karazin.University" target="_blank">
+                <img class="social-media-icons" src="../images/icons/facebook.png" alt="facebook">
+              </a>
+            </li>
+            <li>
+              <a class="social-media-links" href="https://www.instagram.com/karazinuniver/" target="_blank">
+                <img class="social-media-icons" src="../images/icons/instagram.png" alt="instagram">
+              </a>
+            </li>
+            <li>
+              <a class="social-media-links" href="https://www.tiktok.com/@karazinuniver" target="_blank">
+                <img class="social-media-icons" src="../images/icons/tiktok-round-icon.png" alt="tiktok-round-icon">
+              </a>
+            </li>
+            <li>
+              <a class="social-media-links" href="https://www.youtube.com/c/KarazinUniver" target="_blank">
+                <img class="social-media-icons" src="../images/icons/youtube.png" alt="youtube">
+              </a>
+            </li>
+            <li>
+              <a class="social-media-links" href="https://www.linkedin.com/uas/login?session_redirect=%2Fschool%2F15099425" target="_blank">
+                <img class="social-media-icons" src="../images/icons/linkedin.png" alt="linkedin">
+              </a>
+            </li>
+          </ul>
+      </div>
+      <p>Maydan Svobody 4, 61022, Kharkiv</p>
+      <p>E-mail: univer@karazin.ua</p>
+      <p><a href="../content/partners.html">Partners</a></p>
+      <p><a href="../applicant/entry-commision.html">Admissions</a>
+      <ul>
+        <li>+380 (96) 263-84-52</li>
+        <li>+380 (93) 462-02-24</li>
+        <li>+380 (50) 644-72-15</li>
+        <li>+380 (98) 287-51-61</li>
+      </ul></p>
+      <p>The rights to all materials<br> belong to V. N. Karazin Kharkiv National University.</p>
+      <p>This site is not the official site of Kharkiv National University named after V. N. Karazin.</p>
+    </section>
+  </body>
+</html>
